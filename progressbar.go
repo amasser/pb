@@ -116,7 +116,7 @@ func (b *LsdBar) render() error {
 
 	filled := app.TextRainbow(strings.Repeat(string(b.progress.filledSymbol), b.progress.filled))
 
-	_, err = fmt.Printf("\x1b[1m%v\x1b[1m %c%v%v%c \x1b[1m%d%%\x1b[1m",
+	_, err = fmt.Printf("\x1b[1m%v\x1b[1m %c%v%v%c %d%%",
 		b.title,
 		b.prefix,
 		filled,
