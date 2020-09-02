@@ -50,5 +50,8 @@ func main() {
 }
 ```  
 
+# Attention  
+I do not promote drug use
+
 # LICENCE  
 MPL-2.0 License  
