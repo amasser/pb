@@ -1,6 +1,6 @@
 # Installation  
 ```sh
-$ go get github.com/verabull.pb     
+$ go get github.com/verabull/pb     
 ```  
 
 # Quick start   
